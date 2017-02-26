@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <script type="text/javascript" src="valida_login.js"></script>
+    </head>
+    <body>
+        <form name="inicio" method="POST" action="Login_0.php" onsubmit="return validar_login()">
+            <table border="1" align="center">
+                <tr><td colspan="3" align="center"><h2>Iniciar Sesion.-</h2></td></tr>
+                <tr><td><label id="l_rut"> RUT </label></td><td> <input  type="text" name="rut" id="rut"  maxlength="8" required></td>
+                    <td>-<input type="text" name="dv" id="dv" size="1" maxlength="1" required></td></tr>
+                <tr><td><label id="l_pass"> CONTRASEÑA </label></td><td colspan="2"> <input type="password" name="pass" id="pass" required maxlength="6"></td></tr>
+                <tr><td colspan="3" align="center"><a href="Registro_Persona.php"> Si eres nuevo usuario. Haz Click Aqui. </a></td></tr>
+                <tr><td colspan="3" align="center"><input type="submit" name="Ingresar"> </td></tr>                       
+            </table>
+        </form>
+    </body>
+</html>
