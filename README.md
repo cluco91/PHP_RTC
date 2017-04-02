@@ -1,4 +1,4 @@
-![Image of Yaktocat](https://github.com/cluco91/JAVA_DonutCrush/blob/master/juego.png)
+![Image of Yaktocat](https://github.com/cluco91/PHP_RTC/blob/master/auto.png)
 
 # PHP_RTC
 
